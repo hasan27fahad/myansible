@@ -39,5 +39,5 @@
 # This will copy site file
   - name: Copy index template from templates
     template: 
-      src: 24/templates/index.j2
-      dest: "{{ doc_root }}/index.html"
+      src: index.html
+      dest: /var/www/html
